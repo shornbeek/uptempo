@@ -55,6 +55,14 @@
         padding-top: 50px;
     }
 
+     .container1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            
+        }
+
     .textgrade {
       font-size: 32px;
       font-weight: bolder;
@@ -81,10 +89,6 @@
         width: 300px;
     }
 
-    .navbar-custom {
-    color: #FFFFFF;
-    background-color: #CC3333;
-}
 
 .col-6 {
     position: relative;
@@ -94,7 +98,8 @@
     padding-left: 3px;
     padding-bottom: 3px;
 }
-   
+
+
 
   </style>
   <title>Document</title>
@@ -102,8 +107,8 @@
 
 <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-                <img class="navbar-brand" src="logo3.png" alt="Card image cap">
+        <nav class="navbar navbar-expand-md navbar-light">
+                <a href="index.html"> <img class="navbar-brand" src="logo3.png" alt="Card image cap"></a>
 
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,19 +118,12 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="speakerbook.html">SpeakerBook</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
+                      <a class="nav-link" href="#">Blog</a>
                     </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
                 </div>
               </nav>
 
@@ -192,7 +190,7 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
       <div class="row">
         <div class="col-8">
 
-          <h2>Uptempo builds Life Science applications</h2>
+          <h2>Uptempo builds Healthcare applications</h2>
           <p>We bring innovative native and web apps to the market. We reinvent data to provide solutions specifically for your organizations needs.</p>
 
         </div>
@@ -213,7 +211,7 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
         </div>
         <div class="col-8">
 
-          <h2>Convert HealthCare data into powerful sales tools.</h2>
+          <h2>Convert data into powerful sales tools.</h2>
           <p> Bring your Excell file or Database to life through applications that visualize your information in real time. Format and filter your data to get better infomation faster.</p>
         </div>
       </div>
@@ -287,17 +285,6 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
         <h1 class="textgrade">Try SpeakerBook the #1 MSL Platform</h1>
         <p>Build better relationships with Medical science liaisons. (use our database of MSL contacts or bring your own)  </p>
     </center>
-    <div class="">
-            <center>
-              <input type="button" class="btn atagbut" value="More Information" onclick="relocate_home()">
-            </center>
-      
-            <script>
-              function relocate_home() {
-                location.href = "https://itunes.apple.com/us/app/speaker-book-oncology-buzz/id1387979750?mt=8";
-              } 
-            </script>
-          </div>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -335,17 +322,28 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
       </a>
     </div>
 
-    <img class="card-img-top fart1" src="hello.png" alt="Card image cap">
+    <!-- <img class="card-img-top fart1" src="hello.png" alt="Card image cap"> -->
 
 
-    
+    <div class="">
+            <center>
+              <input type="button" class="btn atagbut" value="More Information" onclick="relocate_home()">
+            </center>
+      
+            <script>
+              function relocate_home() {
+                location.href = "https://itunes.apple.com/us/app/speaker-book-oncology-buzz/id1387979750?mt=8";
+              } 
+            </script>
+          </div>
 
 
-<center>
+
+<!-- <center>
     <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
         Contact Us Today
       </button>
-</center>
+</center> -->
 
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -425,10 +423,11 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
 
 </div>
 
- 
+<img class="container1" src="images/footer.png" alt="footer">
 
 
-  <p>Field Ops, Sales, Marketing </p>
+
+  <!-- <p>Field Ops, Sales, Marketing </p> -->
 
 
 </body>
