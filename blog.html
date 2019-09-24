@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+
+<title>Document</title>
+
+
+    <style>
+
+           .navbar-brand {
+        width: 300px;
+    }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            color: black;
+         }
+         h4 {
+            font-weight: 200;
+         }
+         .h2class {
+             padding-bottom: 30px;
+         }
+         p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+         }
+        .container1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 900px;  
+        }
+         .container2 {
+            float: left;
+            padding-right: 15px;
+            width: 100%;
+            max-width: 70px;  
+        }
+         .container3 {
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 100%;
+            max-width: 700px;  
+        }
+           .container5 {
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 100%;
+            max-width: 500px;  
+        }
+        .padding {
+            padding: 20px 20px 0 20px;
+        }
+        .textgrade {
+            font-size: 32px;
+            font-weight: bolder;
+            background: -webkit-linear-gradient(rgb(199, 32, 185), rgb(37, 114, 230));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 30px 15% 0 15%;
+        }
+        .atagbut {
+            background-color: rgb(99, 204, 236);
+            border: none;
+            color: white;
+            padding: 10px 70px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 12px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        .testfont {
+            font-size: 12px;
+            color: gray;
+        }
+         .testfont1 {
+            font-size: 12px;
+            color: gray;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .talk {
+            padding-top: 30px;
+        }
+
+        .w-100 {
+            height: 50%;
+        }
+
+        .video-containeriframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+   .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+        
+
+    </style>
+
+
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-md navbar-light">
+               <a href="index.html"> <img class="navbar-brand" src="logo3.png" alt="Card image cap"></a>
+
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="speakerbook.html">SpeakerBook</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <!-- <center>
+                    <h1>The Most Powerful Search Tool for Oncology Data</h1>
+                    <p class="testfont" >Explore Doctors, Target Payments, Save Lives</p>
+                </center> -->
+
+            
+
+
+    <div class="container">
+
+
+            <div class="video-container">
+                    <iframe src="https://samplestockportfolio.blogspot.com/"  allowfullscreen="" frameborder="0" class="video-containeriframe">
+                    </iframe>
+                </div>
+
+
+            <iframe width="100%" frameborder="0" src="https://samplestockportfolio.blogspot.com/" height="1000px"></iframe>
+
+            
+
+
+
+    </div>
+
+
+</body>
+</html>
