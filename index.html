@@ -181,7 +181,7 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
         </div> -->
 
 
-        <div class="">
+        <!-- <div class="">
             <center>
                 <input type="button" class="btn atagbut" value="Contact Us" onclick="relocate_home()">
             </center>
@@ -191,7 +191,13 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
                     location.href = "https://itunes.apple.com/us/app/speaker-book-oncology-buzz/id1387979750?mt=8";
                 } 
             </script>
-        </div>
+        </div> -->
+
+        <center>
+                <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
+                    Contact Us
+                  </button>
+            </center>
 
 
 
@@ -342,32 +348,33 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
 
 
 
-        <!-- <center>
-    <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
-        Contact Us Today
-      </button>
-</center> -->
+  
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Contact form</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-
+<!-- 
                         <form action="https://docs.google.com/forms/d/e/1FAIpQLSfPYCl4c4FmSyVWsD2Kout4_lbxA6LBHiDGvtB-XrRp22tD_A/formResponse" target="_self"
-                            id="bootstrapForm" method="POST">
-                            <fieldset>
+                            id="bootstrapForm" method="POST"> -->
+
+                            <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"onload="if(submitted) {window.location='index.html';}"></iframe>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfPYCl4c4FmSyVWsD2Kout4_lbxA6LBHiDGvtB-XrRp22tD_A/formResponse" method="post" target="hidden_iframe"onsubmit="submitted=true;">
+
+                            <!-- <fieldset>
                                 <h2>Contact Information
                                     <br>
                                     <small></small>
                                 </h2>
-                            </fieldset>
+                            </fieldset> -->
 
 
                             <!-- Field type: "short" id: "1633920210" -->
@@ -415,7 +422,7 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
   -->
                             <input type="hidden" name="pageHistory" value="0">
 
-                            <input class="btn btn-primary" type="submit" value="Submit">
+                     <center> <input class="btn btn-primary atagbut" type="submit" value="Submit"> </center>    
                         </form>
 
                     </div>
@@ -469,7 +476,14 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
 
         <center>
             <h1 class="talk">Ready to Talk?</h1>
-            <div class="">
+
+            <center>
+                    <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
+                        Get Started
+                      </button>
+                </center>
+
+            <!-- <div class="">
                 <center>
                     <input type="button" class="btn atagbut" value="Get Started" onclick="relocate_home1()">
                 </center>
@@ -479,7 +493,7 @@ https://marketingplatform.google.com/about/static/images/gmp/analytics-smb-benef
                         location.href = "https://itunes.apple.com/us/app/speaker-book-oncology-buzz/id1387979750?mt=8";
                     } 
                 </script>
-            </div>
+            </div> -->
 
         </center>
 
